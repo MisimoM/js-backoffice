@@ -1,0 +1,132 @@
+.btn-theme {
+    border-radius: 6px;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background: #6366F1;
+    color: #FFFFFF;
+    border: none;
+    font-family: "Manrope", sans-serif;
+}
+.btn-theme:hover {
+    text-decoration: none;
+    background: #565973;
+    color: #FFFFFF;
+}
+    
+.btn-theme-s {
+    border-radius: 6px;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0px 8px 18px -8px rgba(99, 102, 241, 0.9);
+    background: #6366F1;
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 13px;
+    font-family: "Manrope", sans-serif;
+}
+.btn-theme-s:hover {
+    box-shadow: 0px 8px 18px -8px rgba(19, 16, 34, 0.15);
+    text-decoration: none;
+    background: #565973;
+    color: #FFFFFF;
+}
+    
+.btn-gray {
+    border-radius: 6px;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background: #EFF2FC;
+    color: #33354D;
+    border: none;
+    font-family: "Manrope", sans-serif;
+}
+  
+.btn-gray:hover {
+    text-decoration: none;
+    background: #565973;
+    color: #FFFFFF;
+}
+
+.btn-create {
+    border-radius: 6px;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background: rgb(30, 202, 30);
+    color: black;
+    border: none;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    width: 7rem;
+}
+
+.btn-create:hover {
+    text-decoration: none;
+    background: rgb(30, 202, 30);
+    color: #FFFFFF;
+}
+
+.btn-update {
+    border-radius: 6px;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background: rgb(240, 240, 0);
+    color: black;
+    border: none;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    width: 7rem;
+}
+
+.btn-update:hover {
+    text-decoration: none;
+    background: rgb(240, 240, 0);
+    color: #FFFFFF;
+}
+
+.btn-delete {
+    border-radius: 6px;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background: #f31a1a;
+    color: black;
+    border: none;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    width: 7rem;
+}
+
+.btn-delete:hover {
+    text-decoration: none;
+    background: #f31a1a;
+    color: #FFFFFF;
+}

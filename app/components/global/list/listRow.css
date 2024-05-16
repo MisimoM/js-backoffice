@@ -1,0 +1,23 @@
+.list-row-container {
+    background-color: #e6ecff;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    position: relative;
+    padding: 1rem;
+
+}
+
+.list-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.list-row h6 {
+    margin: 0;
+}
+
+.list-row-container:hover {
+    background-color: #aabeff;
+}

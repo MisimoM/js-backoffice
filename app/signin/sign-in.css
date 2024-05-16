@@ -1,0 +1,28 @@
+.sign-in .container {
+    display: grid;
+    height: 80vh;
+}
+
+.sign-in .grid-container {
+    width: 60%;
+    height: 80%;
+    justify-self: center;
+    align-self: center;
+    background-color: #e6ecff;
+    border-radius: 5px;
+    padding: 5rem
+}
+
+.sign-in h1 {
+    margin-bottom: 1rem;
+}
+
+.sign-in .sign-in-form {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.sign-in a {
+    text-align: center;
+    text-decoration: none;
+}

@@ -1,0 +1,13 @@
+.users .container {
+    display: flex;
+    gap: 2rem;
+    height: 80vh;
+    background-color: #e6ecff;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.users .container a {
+    text-decoration: none;
+    color: black;
+}

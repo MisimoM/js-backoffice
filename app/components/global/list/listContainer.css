@@ -1,0 +1,36 @@
+.list-container h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.list-container {
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.list-container .list-holder {
+    background-color: #F3F6FF;
+    width: 100%;
+    place-self: center;
+    border-radius: 1.5%;
+    padding: 1rem;
+    overflow: hidden;
+    height: 100%;
+}
+
+.list-container .list-holder .list-title {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+}
+
+.list-container .list-holder .list-title h4{
+    margin: 0;
+}
+
+.list-container .list-holder .list {
+    gap: 0.2rem;
+    overflow-y: auto;
+    max-height: 100%;
+}
