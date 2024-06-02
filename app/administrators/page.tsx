@@ -8,8 +8,10 @@ import Button from "../components/global/button/Button";
 
 import getAdministrators from "@/services/adminService/getAdmins";
 import deleteAdministrator from "@/services/adminService/deleteAdmins";
+import { useRouter } from 'next/navigation';
 
 import "./administrators.css";
+
 
 export default function Administrators() {
 
@@ -24,19 +26,28 @@ export default function Administrators() {
     window.location.reload();
   }
 
+  const router = useRouter();
+
+  const handleClick = () => {
+    router.push('/administrators/create');
+  }
+
     return (
       <main>
         <section className="administrators">
             <div className="container">
                 <ProfileSideBar />
-                <ListContainer title="Administrators" listTitle={["Name", "Role"]}>
+                <ListContainer title="Administrators" listTitle={["Name", "Role"]} >
                     {administrators.map((admin) => (
                       <div key={admin.id}>
-                        <ListRow listRowProps={[admin.firstName, admin.id]} link={`/administrators/${admin.id}`} />
+                        <ListRow listRowProps={[admin.firstName, admin.role]} link={`/administrators/${admin.id}`} />
                         <Button className="btn-delete" title="delete" onClick={() => handleDelete(admin.id)} />
                       </div>
                      ))}
                 </ListContainer>
+                <div className="btn-holder">
+                  <Button className="btn-create" title="create" onClick={() => handleClick()} />
+                </div>
             </div>
         </section>
       </main>

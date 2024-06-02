@@ -12,9 +12,6 @@ export default async function getAdminById(adminId: string) {
       },
     });
 
-    console.log(adminId);
-    console.log(res.status);
-
     if (!res.ok) {
       throw new Error(`Failed to fetch administrator: ${res.statusText}`);
     }

@@ -6,7 +6,7 @@ type FormGroupProps = {
     type?: string;
     placeholder?: string;
     textarea?: boolean;
-    value?: string;
+    defaultValue?: string;
     name?: string;
     onChange?: (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => void;
 }
@@ -16,7 +16,7 @@ export default function FormGroup({
     type,
     placeholder,
     textarea,
-    value,
+    defaultValue,
     name,
     onChange
 }: FormGroupProps) {
@@ -26,7 +26,7 @@ export default function FormGroup({
             {textarea ? (
                 <textarea placeholder={placeholder}></textarea>
             ) : (
-                <input type={type} placeholder={placeholder} value={value} name={name} onChange={onChange} />
+                <input type={type} placeholder={placeholder} defaultValue={defaultValue} name={name} onChange={onChange} />
             )}
         </div>
     )

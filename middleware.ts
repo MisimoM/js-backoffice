@@ -1,6 +1,5 @@
 import { cookies } from "next/headers";
 import { NextRequest, NextResponse } from "next/server";
-import { useRouter } from 'next/router';
 
 export default async function middleware(request: NextRequest) {
     const authCookie = cookies().get('Authorization')
@@ -15,9 +14,13 @@ export default async function middleware(request: NextRequest) {
 export const config = {
     matcher: [
         "/administrators",
+        "/administrators/(.*)",
         "/users",
+        "/users/(.*)",
         "/newsletters",
-        "/courses"
+        "/newsletters/(.*)",
+        "/courses",
+        "/courses/(.*)"
     ]
 }
 

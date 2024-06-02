@@ -11,10 +11,10 @@ export default function Courses() {
             <div className="container">
                 <ProfileSideBar />
                 <ListContainer title="Courses" listTitle={["Title"]}>
-                    <ListRow listRowProps={["HTML/CSS/JS Course"]} />
-                    <ListRow listRowProps={["HTML/CSS/JS Course"]} />
-                    <ListRow listRowProps={["HTML/CSS/JS Course"]} />
-                    <ListRow listRowProps={["HTML/CSS/JS Course"]} />
+                    <ListRow link="/" listRowProps={["HTML/CSS/JS Course"]} />
+                    <ListRow link="/" listRowProps={["HTML/CSS/JS Course"]} />
+                    <ListRow link="/" listRowProps={["HTML/CSS/JS Course"]} />
+                    <ListRow link="/" listRowProps={["HTML/CSS/JS Course"]} />
                 </ListContainer>
             </div>
         </section>

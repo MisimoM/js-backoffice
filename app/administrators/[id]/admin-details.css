@@ -1,0 +1,31 @@
+.admin-details .container {
+    display: flex;
+    gap: 2rem;
+    height: 80vh;
+    background-color: #e6ecff;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.admin-details .container a {
+    text-decoration: none;
+    color: black;
+}
+
+.admin-details .details-container {
+    width: 100%;
+    background-color: #F3F6FF;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.admin-details form {
+    display: grid;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.admin-details .button-holder {
+    display: flex;
+    gap: 2rem;
+}

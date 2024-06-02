@@ -11,9 +11,9 @@ export default function Newsletters() {
             <div className="container">
                 <ProfileSideBar />
                 <ListContainer title="Newsletters" listTitle={["Email", "Subscribed"]}>
-                    <ListRow listRowProps={["marko@email.com", "Yes"]} />
-                    <ListRow listRowProps={["marko@email.com", "Yes"]} />
-                    <ListRow listRowProps={["marko@email.com", "Yes"]} />
+                    <ListRow link="/" listRowProps={["marko@email.com", "Yes"]} />
+                    <ListRow link="/" listRowProps={["marko@email.com", "Yes"]} />
+                    <ListRow link="/" listRowProps={["marko@email.com", "Yes"]} />
                 </ListContainer>
             </div>
         </section>
